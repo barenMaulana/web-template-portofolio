@@ -17,7 +17,7 @@ button{
 }
 
 nav {
-    background-color: #ffffff;
+    background-color: #0984e3;
     min-height: 12vh;
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@ nav .navbrand {
 }
 
 nav .navbrand a {
-    color: #2d3436;
+    color: #ffffff;
     font-size: 1.5em;
     text-decoration: none;
     font-weight: 800;
@@ -63,13 +63,16 @@ main .about-section h2 {
 }
 
 main .about-section .section-content-wrapper {
-    background-color:#ecf0f1;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     padding: 30px 40px;
     border-radius: 10px;
 }
 
 main .about-section .section-content-wrapper p {
-    color: rgb(122, 122, 122);
+    color: rgb(255, 255, 255);
     font-weight: 700;
 }
 
@@ -160,17 +163,17 @@ main .contact-section h2 {
 footer {
     height: 20vh;
     width: 100%;
-    background-color:#ecf0f1;
+    background-color:#0984e3;
     padding: 20px 0px;
 }
 
 footer p {
-    color: #575757;
+    color: #ffffff;
     text-align: center;
 }
 
 footer a{
-    color: #807373;
+    color: #ffffff;
 }
 
 /* css components */
@@ -233,7 +236,7 @@ footer a{
     }
 
     header {
-        height: 48vh;
+        height: 30vh;
         width: 100%;
         /* background-color:#ecf0f1; */
         padding-top: 15% ;
@@ -266,7 +269,7 @@ footer a{
 
     main .skill-section .skill-graphic {
         width: 100%;
-        height: 400px;
+        height: 100px;
         background-image: url("../images/graphic.png");
         background-size: 100% 80%;
         margin: 10px 0px 0px 0px;
@@ -301,6 +304,7 @@ footer a{
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+        align-items: center;
     }
 
     .small-card {
