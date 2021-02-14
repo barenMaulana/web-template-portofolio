@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,300;1,400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
     scroll-behavior: smooth;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
@@ -35,7 +36,7 @@ nav .navbrand a {
     font-weight: 800;
 }
 
-#image-plate{
+#image-plate {
     display: flex;
     margin-left: 0px;
     transition: 1s ease;
@@ -45,11 +46,11 @@ header {
     height: 80vh;
     width: 100%;
     /* background-color:#ecf0f1; */
-    padding-top: 5% ;
+    padding-top: 5%;
     overflow: hidden;
 }
 
-section{
+section {
     margin: 100px 0px;
 }
 
@@ -63,10 +64,7 @@ main .about-section h2 {
 }
 
 main .about-section .section-content-wrapper {
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background-color: #0984e3;
     padding: 30px 40px;
     border-radius: 10px;
 }
@@ -92,7 +90,7 @@ main .skill-section .skill-section-template {
 }
 
 main .skill-section .image-profile {
-    background-color:#ecf0f1;
+    background-color: #ecf0f1;
     width: 30%;
     height: 400px;
     border-radius: 10px;
@@ -102,7 +100,7 @@ main .skill-section .image-profile {
     transition: .3s ease;
 }
 
-main .skill-section .image-profile:hover{
+main .skill-section .image-profile:hover {
     transform: scale(1.1);
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
@@ -119,7 +117,7 @@ main .project-section {
     margin-bottom: 40px;
 }
 
-main .project-section img{
+main .project-section img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -146,7 +144,7 @@ main .project-section h2 {
     transition: 1s ease;
 }
 
-.small-card:hover button{
+.small-card:hover button {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
@@ -163,7 +161,7 @@ main .contact-section h2 {
 footer {
     height: 20vh;
     width: 100%;
-    background-color:#0984e3;
+    background-color: #0984e3;
     padding: 20px 0px;
 }
 
@@ -172,7 +170,7 @@ footer p {
     text-align: center;
 }
 
-footer a{
+footer a {
     color: #ffffff;
 }
 
@@ -192,14 +190,14 @@ footer a{
 .small-card {
     width: 20%;
     height: 300px;
-    background-color:#ecf0f1;
+    background-color: #ecf0f1;
     border-radius: 10px;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     transition: .3s ease;
 }
 
-.small-card:hover{
+.small-card:hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     transform: scale(1.1);
 }
@@ -218,12 +216,12 @@ footer a{
 .super-small-card {
     width: 10%;
     height: 100px;
-    background-color:#ecf0f1;
+    background-color: #ecf0f1;
     border-radius: 10px;
     position: relative;
 }
 
-.super-small-card img{
+.super-small-card img {
     width: 100%;
     height: 100%;
 }
@@ -231,7 +229,7 @@ footer a{
 /* responsive area */
 @media only screen and (max-width: 600px) {
 
-    nav{
+    nav {
         min-height: 15vh;
         text-align: center;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -241,7 +239,7 @@ footer a{
         height: 30vh;
         width: 100%;
         /* background-color:#ecf0f1; */
-        padding-top: 15% ;
+        padding-top: 15%;
     }
 
     main .skill-section h2,
@@ -260,11 +258,11 @@ footer a{
     main .skill-section .skill-section-template {
         display: flex;
         flex-direction: column;
-        align-items:center;
+        align-items: center;
     }
 
     main .skill-section .image-profile {
-        background-color:#ecf0f1;
+        background-color: #ecf0f1;
         width: 80%;
         height: 300px;
         border-radius: 10px;
@@ -298,20 +296,20 @@ footer a{
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        align-items:center;
+        align-items: center;
     }
 
     .d-flex-between {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-         align-items:center;
+        align-items: center;
     }
 
     .small-card {
         width: 60%;
         height: 300px;
-        background-color:#ecf0f1;
+        background-color: #ecf0f1;
         border-radius: 10px;
         position: relative;
         margin: 15px 0px;
@@ -321,7 +319,7 @@ footer a{
         width: 40%;
         height: 50px;
         margin: 15px 0px;
-        background-color:#ecf0f1;
+        background-color: #ecf0f1;
         border-radius: 10px;
     }
 
@@ -339,19 +337,20 @@ footer a{
     max-width: 1000px;
     position: relative;
     margin: auto;
-  }
+}
 
-.slideshow-container img{
+.slideshow-container img {
     border-radius: 10px;
 }
-  
-  /* Hide the images by default */
-  .mySlides {
+
+/* Hide the images by default */
+.mySlides {
     display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -364,21 +363,22 @@ footer a{
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
+}
+
+/* Position the "next button" to the right */
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
@@ -386,19 +386,19 @@ footer a{
     bottom: 8px;
     width: 100%;
     text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
+}
+
+/* The dots/bullets/indicators */
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -407,26 +407,37 @@ footer a{
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
+}
+
+.active,
+.dot:hover {
     background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
+}
+
+/* Fading animation */
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
