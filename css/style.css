@@ -18,7 +18,14 @@ button {
 }
 
 nav {
-    background-color: #0984e3;
+    background: #2193b0;
+    background: #1488CC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     min-height: 12vh;
     display: flex;
     align-items: center;
@@ -64,13 +71,13 @@ main .about-section h2 {
 }
 
 main .about-section .section-content-wrapper {
-    background-color: #0984e3;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 30px 40px;
     border-radius: 10px;
 }
 
 main .about-section .section-content-wrapper p {
-    color: rgb(255, 255, 255);
+    color: rgb(107, 107, 107);
     font-weight: 700;
 }
 
@@ -161,7 +168,14 @@ main .contact-section h2 {
 footer {
     height: 20vh;
     width: 100%;
-    background-color: #0984e3;
+    background: #2193b0;
+    background: #1488CC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     padding: 20px 0px;
 }
 
